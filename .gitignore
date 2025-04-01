@@ -1,0 +1,10 @@
+# Ignora arquivo específico
+usr-terraform_accessKeys.csv
+aws-credentials.txt
+linhas-comandos.txt
+anotações_curso
+# Ignora qualquer arquivo .env
+.env
+
+# Ignora configurações da AWS
+.aws/
