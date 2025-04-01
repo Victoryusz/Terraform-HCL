@@ -1,10 +1,51 @@
-# Ignora arquivo específico
+# === ARQUIVOS SENSÍVEIS ESPECÍFICOS (personalizados) ===
 usr-terraform_accessKeys.csv
 aws-credentials.txt
 linhas-comandos.txt
 anotações_curso
-# Ignora qualquer arquivo .env
-.env
 
-# Ignora configurações da AWS
+# === ARQUIVOS DE ESTADO DO TERRAFORM (CONTÊM DADOS SENSÍVEIS) ===
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# === CONFIGS LOCAIS E PLUGINS DO TERRAFORM ===
+.terraform/
+.crash/
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === DADOS DE CREDENCIAIS E VARIÁVEIS DE AMBIENTE ===
+.env
+.env.*
+*.env
+
+# === ARQUIVOS AWS E CONFIGURAÇÕES LOCAIS ===
 .aws/
+.aws/credentials
+.aws/config
+
+# === SISTEMAS OPERACIONAIS & EDITORES ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# === GIT SECRETS / DETECÇÃO ===
+*.secret
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.cert
