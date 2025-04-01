@@ -1,5 +1,7 @@
+# Define a versão mínima do Terraform e especifica o provedor AWS com versão requerida
+
 terraform {
-  required_version = "=> 1.3.0"
+  required_version = ">=1.3.0"
 
   required_providers {
     aws = {
