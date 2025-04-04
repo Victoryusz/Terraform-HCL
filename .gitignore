@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 # === ARQUIVOS SENSÍVEIS ESPECÍFICOS (personalizados) ===
 usr-terraform_accessKeys.csv
 aws-credentials.txt
 linhas-comandos.txt
 anotações_curso
+=======
+# Ignora qualquer arquivo .env
+.env
+>>>>>>> 1ea830d (gitignore att)
 
 # === ARQUIVOS DE ESTADO DO TERRAFORM (CONTÊM DADOS SENSÍVEIS) ===
 terraform.tfstate
@@ -31,6 +36,44 @@ terraform.tfstate.backup
 
 # === ARQUIVOS AWS E CONFIGURAÇÕES LOCAIS ===
 .aws/
+<<<<<<< HEAD
+=======
+
+# === ARQUIVOS SENSÍVEIS ESPECÍFICOS (personalizados) ===
+usr-terraform_accessKeys.csv
+aws-credentials.txt
+linhas-comandos.txt
+anotações_curso
+yay
+
+# === ARQUIVOS DE ESTADO DO TERRAFORM (CONTÊM DADOS SENSÍVEIS) ===
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# === CONFIGS LOCAIS E PLUGINS DO TERRAFORM ===
+.terraform/
+.crash/
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === DADOS DE CREDENCIAIS E VARIÁVEIS DE AMBIENTE ===
+.env
+.env.*
+*.env
+
+# === ARQUIVOS AWS E CONFIGURAÇÕES LOCAIS ===
+.aws/
+>>>>>>> 1ea830d (gitignore att)
 .aws/credentials
 .aws/config
 
@@ -48,4 +91,8 @@ Thumbs.db
 *.crt
 *.p12
 *.jks
+<<<<<<< HEAD
 *.cert
+=======
+*.cert
+>>>>>>> 1ea830d (gitignore att)
