@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-# === ARQUIVOS SENSÍVEIS ESPECÍFICOS (personalizados) ===
-usr-terraform_accessKeys.csv
-aws-credentials.txt
-linhas-comandos.txt
-anotações_curso
-=======
-# Ignora qualquer arquivo .env
-.env
->>>>>>> 1ea830d (gitignore att)
-
 # === ARQUIVOS DE ESTADO DO TERRAFORM (CONTÊM DADOS SENSÍVEIS) ===
 terraform.tfstate
 terraform.tfstate.backup
 *.tfstate
 *.tfstate.*
+plan.out
 
 # === CONFIGS LOCAIS E PLUGINS DO TERRAFORM ===
 .terraform/
@@ -22,13 +12,6 @@ terraform.tfstate.backup
 *.tfvars
 *.tfvars.json
 
-# === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
-
 # === DADOS DE CREDENCIAIS E VARIÁVEIS DE AMBIENTE ===
 .env
 .env.*
@@ -36,46 +19,45 @@ terraform.tfstate.backup
 
 # === ARQUIVOS AWS E CONFIGURAÇÕES LOCAIS ===
 .aws/
-<<<<<<< HEAD
-=======
-
-# === ARQUIVOS SENSÍVEIS ESPECÍFICOS (personalizados) ===
-usr-terraform_accessKeys.csv
-aws-credentials.txt
-linhas-comandos.txt
-anotações_curso
-yay
-
-# === ARQUIVOS DE ESTADO DO TERRAFORM (CONTÊM DADOS SENSÍVEIS) ===
-terraform.tfstate
-terraform.tfstate.backup
-*.tfstate
-*.tfstate.*
-
-# === CONFIGS LOCAIS E PLUGINS DO TERRAFORM ===
-.terraform/
-.crash/
-*.tfplan
-*.tfvars
-*.tfvars.json
-
-# === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
-
-# === DADOS DE CREDENCIAIS E VARIÁVEIS DE AMBIENTE ===
-.env
-.env.*
-*.env
-
-# === ARQUIVOS AWS E CONFIGURAÇÕES LOCAIS ===
-.aws/
->>>>>>> 1ea830d (gitignore att)
 .aws/credentials
 .aws/config
+
+# === ARQUIVOS AZURE ===
+.azure/
+azureProfile.json
+azureProfile.*
+AzureRMContext.json
+AzureRMContext.*
+
+# === ARQUIVOS GCP ===
+.gcloud/
+gcloud_config/
+application_default_credentials.json
+credentials.json
+*service-account*.json
+
+# === ARQUIVOS ANSIBLE ===
+*.retry
+*.cfg~
+*.inventory~
+*.vault
+*.vault_pass.txt
+*.ansible.log
+host_vars/
+group_vars/
+
+# === ARQUIVOS SENSÍVEIS PERSONALIZADOS ===
+usr-terraform_accessKeys.csv
+aws-credentials.txt
+linhas-comandos.txt
+anotações_curso
+
+# === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
 
 # === SISTEMAS OPERACIONAIS & EDITORES ===
 .DS_Store
@@ -91,9 +73,4 @@ Thumbs.db
 *.crt
 *.p12
 *.jks
-<<<<<<< HEAD
 *.cert
-=======
-*.cert
->>>>>>> 1ea830d (gitignore att)
-plan.out
