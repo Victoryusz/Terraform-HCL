@@ -21,6 +21,8 @@ plan.out
 .aws/
 .aws/credentials
 .aws/config
+aws-key
+aws-key.pub
 
 # === ARQUIVOS AZURE ===
 .azure/
@@ -51,7 +53,6 @@ usr-terraform_accessKeys.csv
 aws-credentials.txt
 linhas-comandos.txt
 anotações_curso
-aws-key
 
 
 # === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
