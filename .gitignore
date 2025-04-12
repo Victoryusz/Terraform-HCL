@@ -51,6 +51,8 @@ usr-terraform_accessKeys.csv
 aws-credentials.txt
 linhas-comandos.txt
 anotações_curso
+aws-key
+
 
 # === ARQUIVOS DE LOG OU TEMPORÁRIOS ===
 *.log
