@@ -30,6 +30,8 @@ azureProfile.json
 azureProfile.*
 AzureRMContext.json
 AzureRMContext.*
+azure-key
+azure-key.pub
 
 # === ARQUIVOS GCP ===
 .gcloud/
